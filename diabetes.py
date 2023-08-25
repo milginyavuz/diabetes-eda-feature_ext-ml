@@ -15,7 +15,7 @@ pd.set_option('display.max_rows', None)
 pd.set_option('display.float_format', lambda x: '%.3f' % x)
 pd.set_option('display.width', 500)
 
-df = pd.read_csv("C:/Users/User/OneDrive/Masaüstü/diabetes-230330-150402/diabetes/diabetes.csv")
+df = pd.read_csv('diabetes.csv')
 
 
 # EDA
